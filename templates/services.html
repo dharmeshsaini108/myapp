@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services</title>
+    <script src="https://kit.fontawesome.com/ebe642a79e.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            background-image: url('https://i.postimg.cc/527HWr6v/sean-pollock-Ph-Yq704ffd-A-unsplash.jpg'); /* Add your background image URL */
+            background-size: cover;
+            background-repeat: no-repeat;
+            color: #8d8b8b;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            height: 100vh;;
+        }
+
+       
+
+        h1 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1em;
+            margin-bottom: 30px;
+        }
+
+        .icons {
+            display: flex;
+            justify-content: space-between; /* Add this line to space the icons evenly */
+            flex-wrap: wrap; /* Add this line to allow wrapping onto the next line */
+            margin-bottom: 30px;
+        }
+
+        .icon {
+            flex: 0 0 48%; /* Set a width for each icon to create a two-column layout with some spacing */
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        i {
+            font-size: 3em;
+            color: #3498db; /* Add your preferred color */
+            margin-bottom: 10px;
+        }
+
+        .icons p {
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        {% include 'navbar.html' %}
+
+        <h1>Our Services</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat consequuntur perspiciatis inventore praesentium doloremque ad, enim optio, fugiat itaque corrupti qui, ex at rerum magnam molestias impedit officiis rem odio nobis ut excepturi necessitatibus? Exercitationem, impedit! Recusandae accusamus provident saepe esse maiores quas, pariatur, labore delectus aut repellat atque cupiditate.</p>  
+
+        <div class="icons">
+            <div class="icon">
+                <i class="fas fa-diagram-project"></i>
+                <p>New Projects</p>
+            </div>
+            <div class="icon">
+                <i class="fab fa-usps"></i>
+                <p>Hand-to-hand Project</p>
+            </div>
+            <div class="icon">
+                <i class="fas fa-chalkboard-user"></i>
+                <p>Training Programs</p>
+            </div>
+            <div class="icon">
+                <i class="fas fa-laptop"></i>
+                <p>Job/Internships</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

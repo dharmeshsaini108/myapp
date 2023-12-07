@@ -1,0 +1,1 @@
+#after adding data you will be redirect ro home page
